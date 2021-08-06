@@ -1,0 +1,125 @@
+footer#footer {
+    padding-top: 30px;
+
+    .container {
+        h4.brand {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 44px;
+            line-height: 80%;
+            color: #181E4B;
+        }
+        .text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 124.5%;
+            color: #5E6282;
+        }
+
+        .link_block {
+            h5 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 21px;
+                line-height: 124.5%;
+                color: #080809;
+                margin-bottom: 20px;
+            }
+            
+            a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 124.5%;
+                color: #5E6282;
+                padding-left: 0;
+                &:hover {
+                    color: #212752;
+                }
+            }
+        }
+
+        .messenger_block {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a.messenger_icon {
+                width: 41px;
+                height: 41px;
+                background: #FFFFFF;
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 8px;
+                border-radius: 22px;
+                transition: all 0.2s ease-out;
+
+                .c_white {
+                    display: none;
+                }
+
+                &:hover {
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 23px;
+                    background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+                    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+                    margin: 6px !important;
+                    transition: all 0.2s ease-out;
+
+                    .c_dark {
+                        display: none;
+                    }
+                    .c_white {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .discover {
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 124.5%;
+            letter-spacing: 0.005em;
+            color: #5E6282;
+        }
+
+        a.playmarket_apple {
+            width: 107px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #080809;
+            border-radius: 17.5px;
+        }
+
+        .footer_f {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 124.5%;
+            color: #5E6282;
+        }
+
+        @media (min-width: 762px) {
+            .text-md-start {
+                text-align: start !important;
+            }
+
+            .messenger_block {
+                justify-content: start;
+            }
+        }
+    }
+}

@@ -1,0 +1,221 @@
+header#header {
+    min-height: calc(100vh - 100px) !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .container {
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .header_body {
+            z-index: 9999 !important;
+        
+            h6 {
+                max-width: 100%;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                text-align: center;
+                line-height: 30px;
+                text-transform: uppercase;
+                color: #DF6951;
+                margin-bottom: 30px;
+            }
+            h1 {
+                max-width: 100%;
+                font-family: Volkhov;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                text-align: center;
+                line-height: 100%;
+                letter-spacing: -0.04em;
+                color: #181E4B;
+                margin-bottom: 30px;
+                
+                span {
+                    background-image: url('../images/header/text-bottom.png');
+                    background-repeat: no-repeat;
+                    background-position: 0px 85%;
+                    background-size: contain;
+                }
+            }
+            p {
+                max-width: 100%;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                text-align: center;
+                line-height: 120%;
+                color: #5E6282;
+            }
+            .button_block {
+                display: flex;
+                max-width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                button.find_out_more {
+                    width: 50%;
+                    height: 40px;
+                    background: #F1A501;
+                    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+                    border-radius: 10px;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 23px;
+                    color: #FFFFFF;
+                }
+
+                button.play_demo {
+                    width: 50%;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    box-shadow: inset 0 0 0 0;
+                    font-size: 12px;
+                    color: #686D77;
+                    padding: 0;
+                    margin-left: 10px;
+                    span.play {
+                    width: 32px;
+                    height: 32px;
+                    margin-right: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    background: #DF6951;
+                    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media (min-width: 576px) {
+        .container {
+            background-image: url('../images/header/travel-girl.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center right;
+
+            .header_body {
+            z-index: 9999 !important;
+            
+            h6 {
+                max-width: 270px;
+                text-align: start;
+            }
+            h1 {
+                max-width: 270px;
+                text-align: start;
+            }
+            p {
+                max-width: 250px;
+                text-align: start;
+            }
+            .button_block {
+                margin-left: 0;
+            }
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            .header_body { 
+            h6 {
+                max-width: 300px;
+                font-size: 14px;
+                margin-bottom: 30px;
+            }
+            h1 {
+                max-width: 350px;
+                font-size: 50px;
+                margin-bottom: 30px;
+            }
+            p {
+                max-width: 300px;
+                font-size: 12px;
+            }
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            .header_body { 
+                h6 {
+                    max-width: 500px;
+                    font-size: 17px;
+                    margin-bottom: 30px;
+                }
+                h1 {
+                    max-width: 500px;
+                    font-size: 70px;
+                    margin-bottom: 30px;
+                }
+                p {
+                    max-width: 450px;
+                    font-size: 14px;
+                    margin-bottom: 30px;
+                }
+                .button_block {
+                    max-width: 370px;
+                    button.find_out_more {
+                        width: 170px;
+                        height: 60px;
+                        font-size: 18px;
+                        line-height: 23px;
+                    }
+            
+                    button.play_demo {
+                        width: 170px;
+                        height: 60px;
+                        margin-left: 30px;
+                        span.play {
+                            width: 52px;
+                            height: 52px;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+
+    @media (min-width: 1200px) {
+        background-color: transparent;
+        .container {
+            .header_body { 
+                h6 {
+                    max-width: 600px;
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-bottom: 30px;
+                }
+                h1 {
+                    max-width: 500px;
+                    font-size: 84px;
+                    line-height: 89px;
+                    margin-bottom: 30px;
+                }
+                p {
+                    max-width: 500px;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #5E6282;
+                }
+            }
+        }
+    }
+}
