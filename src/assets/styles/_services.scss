@@ -3,10 +3,13 @@ section#services {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
+    overflow: hidden;
 
     .container {
-
+        position: relative;
+        padding-bottom: 100px;
         .services_card {
+            
             height: 100%;
             cursor: pointer;
             padding-left: 20px;
@@ -67,6 +70,12 @@ section#services {
                     z-index: -1;
                 }
             }
+        }
+        .bg_plus {
+            position: absolute;
+            top: -20px;
+            left: 95%;
+            // z-index: 999;
         }
     }
 }

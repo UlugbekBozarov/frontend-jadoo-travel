@@ -1,0 +1,230 @@
+section#easy_and_fast {
+    min-height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    overflow: hidden !important;
+    padding-top: 100px;
+
+    .container {
+        .step_block {
+            display: flex;
+            margin-bottom: 20px;
+
+            .step_icon {
+                width: 80px !important;
+                
+                svg {
+                    margin-right: 15px;
+                }
+            }
+
+            .step_body {
+                h6 {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 124.5%;
+                    color: #5E6282;
+                }
+                p {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 124.5%;
+                    color: #5E6282;
+                }
+            }
+        }
+
+        .card_container {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 100px;
+
+            .card_block {
+                position: relative;
+                margin-top: 30px;
+                // margin-right: 50px;
+                margin-bottom: 150px;
+                padding: 10px;
+                border-radius: 26px;
+                background: #FFFFFF;
+                box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 
+                0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+                0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 
+                0px 20px 13px rgba(0, 0, 0, 0.01), 
+                0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 
+                0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+                // overflow: hidden;
+
+                .card_img {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                        border-radius: 26px;
+                    }
+                }
+                .card_body {
+                    padding-top: 20px;
+                    h6 {
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 124.5%;
+                        letter-spacing: 0.015em;
+                        color: #080809;
+                        margin-bottom: 15px;
+                    }
+
+                    .descrip {
+                        display: flex;
+                        margin-bottom: 10px;
+                        p {
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 100%;
+                            letter-spacing: -0.005em;
+                            color: #84829A;
+                        }
+
+                        .date {
+                            padding-right: 3px;
+                            margin-right: 10px;
+                            border-right: 1px solid #84829A;
+                        }
+                    }
+                    .block_icon {
+                        display: flex;
+                        margin-bottom: 20px;
+                        button {
+                            width: 36px;
+                            height: 36px;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background: #F5F5F5;
+                            border-radius: 50%;
+                            margin-right: 12px;
+                        }
+                    }
+                    .block_footer {
+                        margin-bottom: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                .ongoing {
+                    position: absolute;
+                    bottom: -140px;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 130px;
+                    display: flex;
+                    padding: 20px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+                    border-radius: 18px;
+
+                    .user {
+                        margin-right: 10px;
+                        img {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 26px;
+                        }
+                    }
+
+                    p {
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 124.5%;
+                        letter-spacing: -0.035em;
+                        color: #84829A;
+                    }
+
+                    h5 {
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 124.5%;
+                        letter-spacing: -0.015em;
+                        color: #080809;
+                    }
+                    h6 {
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 124.5%;
+                        letter-spacing: -0.055em;
+                        color: #080809;
+                        span {
+                            padding-right: 5px;
+                            color: #8A79DF;
+                        }
+                    }
+
+                    .progress_block .progress {
+                        width: 100% !important;
+                        height: 5px !important;
+                        background: #F5F5F5;
+                        border-radius: 30px;
+
+                        .progress-bar {
+                            height: 5px;
+                            border-radius: 30px;
+                            background: #8A79DF;
+                        }
+                    }
+                }
+                .bg_filter {
+                    position: absolute;
+                    top: 0px;
+                    right: -40px;
+                    width: 200px;
+                    height: 100px;
+                    background: #59B1E6;
+                    opacity: 0.8;
+                    filter: blur(100px);
+                    z-index: -1;
+                }
+            }
+        }
+
+        @media (min-width: 576px) {
+            .card_container {
+                .card_block {
+                    width: 370px;
+                    margin-right: 50px;
+                    margin-bottom: 20px;
+                    padding: 20px;
+
+                    .ongoing {
+                        position: absolute;
+                        bottom: 60px;
+                        left: auto;
+                        right: -110px;
+                        width: 263px;
+                    }
+                }
+            }
+        }
+
+        
+    }
+}

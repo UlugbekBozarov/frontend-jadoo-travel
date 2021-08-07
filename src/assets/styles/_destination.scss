@@ -2,9 +2,11 @@ section#destination {
     min-height: calc(100vh - 100px);
     display: flex;
     align-items: center;
+    overflow: hidden;
 
     .container {
         position: relative;
+        padding-bottom: 120px;
 
         .destination_card {
             background-color: white;

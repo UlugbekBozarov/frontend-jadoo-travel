@@ -6,6 +6,7 @@ import Section6 from '../Component/Section6';
 import Footer from '../Component/shared/Footer';
 import Services from '../Component/Services';
 import Destination from '../Component/Destination';
+import EasyAndFast from '../Component/EasyAndFast';
 
 const LandingPage = () => {
 
@@ -22,11 +23,12 @@ const LandingPage = () => {
     },[]);
 
     return (
-        <>
+        <div style={{paddingTop: "100px"}}>
             <Navbar />
             <Header />
             <Services />
             <Destination />
+            <EasyAndFast />
             <Section5 />
             <Section6 />
             <Footer />
@@ -36,7 +38,7 @@ const LandingPage = () => {
                     <path d="M22.3069 222C-18.0931 153.2 5.4736 13.3333 22.3069 -48L701.807 -149L766.307 122.5L727.807 723.5C649.14 724.5 473.707 717 401.307 679C310.807 631.5 351.807 555 276.807 515C201.807 475 244.807 369.5 218.807 329.5C192.807 289.5 72.8069 308 22.3069 222Z" fill="#FFF1DA" />
                 </svg>
             </div>
-        </>
+        </div>
     )
 }
 
