@@ -7,6 +7,7 @@ import Footer from '../Component/shared/Footer';
 import Services from '../Component/Services';
 import Destination from '../Component/Destination';
 import EasyAndFast from '../Component/EasyAndFast';
+import Section4 from '../Component/Section4';
 
 const LandingPage = () => {
 
@@ -29,6 +30,7 @@ const LandingPage = () => {
             <Services />
             <Destination />
             <EasyAndFast />
+            <Section4 />
             <Section5 />
             <Section6 />
             <Footer />
