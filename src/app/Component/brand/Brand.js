@@ -1,8 +1,9 @@
 import React from 'react'
+import './_brand.scss'
 
-const Section5 = () => {
+const Brand = () => {
     return (
-        <section id="section_5">
+        <section id="brand">
             <div className="container">
                 <div className="section_container">
                     <div className="section_block">
@@ -27,4 +28,4 @@ const Section5 = () => {
     )
 }
 
-export default Section5
+export default Brand

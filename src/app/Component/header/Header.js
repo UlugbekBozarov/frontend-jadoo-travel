@@ -1,15 +1,16 @@
 import React from 'react'
+import './_header.scss'
 
 const Header = () => {
     return (
         <header id="header">
-            <div className="container">
+            <div className="container" style={{backgroundImage: "url('/images/header/travel-girl.png')"}}>
                 <div className="row m-0">
                     <div className="col-12 col-6">
                         <div className="header_body">
                             <h6>Best Destinations around the world</h6>
                             <h1>
-                                Travel,<span> enjoy </span>
+                                Travel,<span style={{backgroundImage: "url('/images/header/text-bottom.png')"}}> enjoy </span>
                                 and live a new
                                 and full life
                             </h1>

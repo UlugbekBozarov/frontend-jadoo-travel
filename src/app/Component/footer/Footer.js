@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './_footer.scss'
 
 const Footer = () => {
     return (
@@ -252,7 +253,8 @@ const Footer = () => {
                 </div>
                 <div className="row">
                     <div className="col-12 footer_f">
-                        <p>All rights reserved@jadoo.co</p>
+                        <p>All rights reserved </p>
+                        <a href="https://ulugbekbozarov-portfolio.netlify.app/" className="ml-2" style={{color: "#5E6282"}}>Ulug'bek Bozarov</a>
                     </div>
                 </div>
             </div>

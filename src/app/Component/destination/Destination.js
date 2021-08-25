@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './_destination.scss'
 
 const Destination = () => {
     const [destination] = useState([

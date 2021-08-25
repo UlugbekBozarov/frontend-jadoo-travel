@@ -1,4 +1,4 @@
-section#section_4 {
+section#testimonial {
     .swiper-container.mySwiper1 {
         padding-bottom: 50px;
         .swiper-pagination {
@@ -40,7 +40,7 @@ section#section_4 {
                 right: 0 !important;
                 left: auto;
                 &::after {
-                    content: url('../images/section-4/top.svg');
+                    content: url('./top.svg');
                 }
             }
             .swiper-button-next {
@@ -50,7 +50,7 @@ section#section_4 {
                 left: auto;
                 right: 0 !important;
                 &::after {
-                    content: url('../images/section-4/bottom.svg');
+                    content: url('./bottom.svg');
                 }
             }
             .swiper-wrapper {

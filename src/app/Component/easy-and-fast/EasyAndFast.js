@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './_easy_and_fast.scss'
 
 const EasyAndFast = () => {
     const [steps] = useState([

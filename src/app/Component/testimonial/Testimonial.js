@@ -6,13 +6,15 @@ import "swiper/components/pagination/pagination.min.css"
 import "swiper/components/navigation/navigation.min.css"
 
 import SwiperCore, {
-    Pagination,Navigation
-  } from 'swiper/core';
+    Pagination, Navigation
+} from 'swiper/core';
 
-SwiperCore.use([Pagination,Navigation]);
+import './_testimonial.scss'
 
-const Section4 = () => {
-    const[s4] = useState([
+SwiperCore.use([Pagination, Navigation]);
+
+const Testimonial = () => {
+    const [s4] = useState([
         {
             img: "/images/section-4/Image.png",
             text: "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
@@ -27,7 +29,7 @@ const Section4 = () => {
         }
     ])
     return (
-        <section id="section_4">
+        <section id="testimonial">
             <div className="container">
                 <div className="row m-0">
                     <div className="col-12 col-xl-6 mb-5 mb-xl-0">
@@ -37,7 +39,7 @@ const Section4 = () => {
                             {
                                 [...new Array(3)].map(i => {
                                     return (
-                                        <SwiperSlide>
+                                        <SwiperSlide key={i}>
                                             <div className="title">
                                                 <p style={{ textTransform: "uppercase" }}>Testimonials</p>
                                                 <h1>What people say about Us.</h1>
@@ -50,7 +52,7 @@ const Section4 = () => {
                     </div>
                     <div className="col-12 col-xl-6 px-0 px-sm-2">
                         <div className="vertical_carousel">
-                            <Swiper spaceBetween={30}  navigation={true} pagination={{"clickable": true }} className="mySwiper2">
+                            <Swiper spaceBetween={30} navigation={true} pagination={{ "clickable": true }} className="mySwiper2">
                                 {
                                     s4.map((s, i) => {
                                         return (
@@ -76,4 +78,4 @@ const Section4 = () => {
     )
 }
 
-export default Section4
+export default Testimonial

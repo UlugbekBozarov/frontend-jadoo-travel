@@ -1,10 +1,11 @@
 import React from 'react'
+import './_contact.scss'
 
-const Section6 = () => {
+const Contact = () => {
     return (
-        <section id="section_6">
+        <section id="contact">
             <div className="container">
-                <div className="section_container">
+                <div className="section_container" style={{backgroundImage: "url('/images/section-7/bg_section_7.png')"}}>
                     <div className="section_block">
                         <h4>
                             Subscribe to get information, latest news and other
@@ -130,4 +131,4 @@ const Section6 = () => {
     )
 }
 
-export default Section6
+export default Contact

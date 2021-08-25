@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import './_navbar.scss'
 
 const Navbar = () => {
     const [nav] = useState([
