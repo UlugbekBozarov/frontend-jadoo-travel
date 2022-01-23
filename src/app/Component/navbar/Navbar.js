@@ -34,6 +34,11 @@ const Navbar = () => {
             path: "/sign-up",
             name: "Sign Up"
         }
+        {
+            id: 6,
+            path: "/sign-up",
+            name: "Hello"
+        }
     ]);
 
     const [navbarCollapse, setNavbarCollapse] = useState(false);
