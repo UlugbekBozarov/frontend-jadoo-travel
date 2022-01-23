@@ -33,11 +33,6 @@ const Navbar = () => {
             id: 6,
             path: "/sign-up",
             name: "Sign Up"
-        },
-        {
-            id: 6,
-            path: "/sign-up",
-            name: "Hello"
         }
     ]);
 
